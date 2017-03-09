@@ -78,6 +78,14 @@ p {
   margin: 0 20% 0 20%;
 }
 
+#what {
+  background-color: #e3e3e3;;
+}
+
+#talks {
+  background-color: #f2f2f2;
+}
+
 #blog {
   background-color: #e3e3e3;
   padding: 70px 10px 10px 10px;
