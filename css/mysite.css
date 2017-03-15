@@ -1,12 +1,12 @@
 
 body {
   margin: 0 0 0 0;
-  background-color: gray;
+  background-color: #282c32;
 }
 
 header {
   position: fixed;
-  background-color: #282c32;
+  background-color: black;
   width: 100%;
 }
 
@@ -29,7 +29,7 @@ li a {
   color: #1C77C3;
   font-family: sans-serif;
   text-decoration: none;
-  background-color: #282c32;
+  background-color: black;
   color: white;
   padding: 15px 15px 17px;
 }
@@ -66,7 +66,7 @@ p {
 }
 
 #home {
-  background-color: #e3e3e3;;
+  background-color: #e7e6e5;;
   padding: 70px 10px 10px 10px;
   margin: 0 20% 0 20%;
 }
@@ -80,10 +80,14 @@ p {
 
 #what {
   background-color: #e3e3e3;;
+  padding: 70px 10px 10px 10px;
+  margin: 0 20% 0 20%;
 }
 
 #talks {
   background-color: #f2f2f2;
+  padding: 70px 10px 10px 10px;
+  margin: 0 20% 0 20%;
 }
 
 #blog {
