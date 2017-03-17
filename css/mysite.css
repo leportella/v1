@@ -1,5 +1,5 @@
-
 body {
+  font-family: 'Lato', sans-serif;
   margin: 0 0 0 0;
   background-color: #282c32;
 }
@@ -8,15 +8,17 @@ header {
   position: fixed;
   background-color: black;
   width: 100%;
+  height: 50px;
+  top: 0;
 }
 
 ul {
   display: flex;
   list-style-type: none;
+  height: 50px;
   margin: 0 20% 0 20%;
   padding: 0;
   overflow: hidden;
-  height: 50px;
   justify-content: flex-end;
   align-items: center;
 }
@@ -27,7 +29,6 @@ li {
 
 li a {
   color: #1C77C3;
-  font-family: sans-serif;
   text-decoration: none;
   background-color: black;
   color: white;
@@ -49,12 +50,7 @@ li a:active {
 
 a {
   color: #02A4A9;
-  font-family: sans-serif;
   text-decoration: none;
-}
-
-p {
-  font-family: sans-serif;
 }
 
 .text {
@@ -65,41 +61,34 @@ p {
   text-align: center;
 }
 
-#home {
-  background-color: #e7e6e5;;
-  padding: 70px 10px 10px 10px;
+.text-holder {
+  padding: 70px 10px;
   margin: 0 20% 0 20%;
 }
 
+#home {
+  background-color: #e7e6e5;;
+  margin-top: 50px;
+}
 
 #aboutme {
   background-color: #f2f2f2;
-  padding: 70px 10px 10px 10px;
-  margin: 0 20% 0 20%;
 }
 
 #what {
   background-color: #e3e3e3;;
-  padding: 70px 10px 10px 10px;
-  margin: 0 20% 0 20%;
 }
 
 #talks {
   background-color: #f2f2f2;
-  padding: 70px 10px 10px 10px;
-  margin: 0 20% 0 20%;
 }
 
 #blog {
   background-color: #e3e3e3;
-  padding: 70px 10px 10px 10px;
-  margin: 0 20% 0 20%;
 }
 
 #contact {
   background-color: #f2f2f2;
-  padding: 70px 10px 10px 10px;
-  margin: 0 20% 0 20%;
 }
 
 #bottom-bar {
